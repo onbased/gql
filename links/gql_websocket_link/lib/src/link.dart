@@ -1,10 +1,12 @@
-import 'package:gql_link/gql_link.dart';
-import 'package:gql_exec/gql_exec.dart';
+// Originally from https://github.com/zino-app/graphql-flutter
 
-import './websocket_client.dart';
+import "package:gql_link/gql_link.dart";
+import "package:gql_exec/gql_exec.dart";
 
-export './websocket_client.dart';
-export './websocket_messages.dart';
+import "./client.dart";
+
+export "./client.dart";
+export "./messages.dart";
 
 /// A Universal Websocket [Link] implementation to support the websocket transport.
 /// It supports subscriptions, query and mutation operations as well.
